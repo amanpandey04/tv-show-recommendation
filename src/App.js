@@ -58,7 +58,7 @@ export default function App() {
       <ul>
         {tvShowDB[currentGenre].map((show) => {
           return (
-            <li key={show.name}>
+            <li className="show-list" key={show.name}>
               <div className="name">{show.name}</div>
               <div className="rating">{show.rating}</div>
             </li>
